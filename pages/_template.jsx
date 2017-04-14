@@ -67,9 +67,11 @@ module.exports = React.createClass({
 
         {this.props.children}
 
-        <footer className="row">
-          <span className="col-7"><a href="http://www.vim.org/">&#10084; Vim</a></span>
-          <span className="col-5 text-right text-capitalize">Powered by green tea.</span>
+        <footer className="col-12">
+          <div className="row">
+            <span className="col-7"><a href="http://www.vim.org/">&#10084; Vim</a></span>
+            <span className="col-5 text-right text-capitalize">Powered by green tea.</span>
+          </div>
         </footer>
 
         <svg className="defs-only" xmlns="http://www.w3.org/2000/svg">
