@@ -1,0 +1,69 @@
+
+.symbol {
+  font-size:2em;
+}
+
+header,
+footer
+{
+  background: #000;
+  color: #fff;
+}
+
+footer {
+  padding: 5px;
+  font-size: .75em;
+}
+
+nav {
+  background: #135f64;
+}
+
+section {
+  padding: 30px;
+  background: #F2B74B;
+}
+
+.intro {
+  margin-top: 0;
+  margin-bottom: 10px;
+  background: #bf4135;
+  padding: 10px 15px 5px;
+  color: #fff;
+}
+
+.project img {
+  border: 5px solid #D88F36;
+}
+
+.entry h4 {
+  color: #135f64;
+}
+
+@media(min-width: 1500px) {
+  .symbol {
+    font-size: 3em;
+  }
+}
+
+@media(min-width: 720px) {
+  .intro {
+    position: absolute;
+    margin-top: -138px;
+    border-radius: 5px 5px 0 0;
+    opacity: .9;
+  }
+}
+
+@media(max-width: 575px) {
+  .project img {
+    margin-bottom: 20px;
+  }
+  .project:last-of-type img {
+    margin-bottom: 0;
+  }
+}
+
+@import './main.less';
+@import './logo.less';
+
