@@ -1,2 +1,121 @@
-:root{--color:pink}._12mMbi9pYZjHnytkkBkl9v{& ul{margin:0;padding:0;list-style:none}& li{display:inline-block}& a{background:var(--color);border-radius:3px;display:block;margin-right:6px;padding:3px 9px;text-decoration:none}}.LTvuH8RPU0mk-fe8W2tP7{text-decoration:underline}
-/*# sourceMappingURL=styles.css.map*/
+.symbol {
+  font-size: 2em;
+}
+header,
+footer {
+  background: #000;
+  color: #fff;
+}
+footer {
+  padding: 5px;
+  font-size: .75em;
+}
+nav {
+  background: #135f64;
+}
+section {
+  padding: 30px;
+  background: #F2B74B;
+}
+.intro {
+  margin-top: 0;
+  margin-bottom: 10px;
+  background: #bf4135;
+  padding: 10px 15px 5px;
+  color: #fff;
+}
+.project img {
+  border: 5px solid #D88F36;
+}
+.entry h4 {
+  color: #135f64;
+}
+@media (min-width: 1500px) {
+  .symbol {
+    font-size: 3em;
+  }
+}
+@media (min-width: 720px) {
+  .intro {
+    position: absolute;
+    margin-top: -138px;
+    border-radius: 5px 5px 0 0;
+    opacity: .9;
+  }
+}
+@media (max-width: 575px) {
+  .project img {
+    margin-bottom: 20px;
+  }
+  .project:last-of-type img {
+    margin-bottom: 0;
+  }
+}
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  background: #F2ECCD;
+  color: #000;
+}
+h3 {
+  color: #bf4135;
+}
+.font-glass-antiqua {
+  font-family: 'Glass Antiqua', cursive;
+}
+a {
+  text-decoration: none;
+  color: #135f64;
+  cursor: pointer;
+}
+a.symbol,
+nav a,
+footer a {
+  color: #69bf83;
+}
+a:active {
+  text-decoration: none;
+}
+a:focus {
+  color: #BF4135;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  color: #BF4135;
+  text-decoration: none;
+}
+svg {
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+svg.defs-only {
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+}
+line {
+  stroke: #D88F36;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+text {
+  font-size: 8em;
+  font-family: 'Glass Antiqua', sans-serif;
+  fill: #F2ECCD;
+}
+.logo {
+  padding: 15px;
+}
+.logo svg {
+  padding: 0;
+}
